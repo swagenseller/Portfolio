@@ -5,11 +5,11 @@ import { Grid } from "semantic-ui-react";
 const apps = [
 	{
 		id: 0,
-		image: "", //require('../images/gem.png'),
+		image: require("../images/codenames1.PNG"),
 		name: "SpyMaster Randomizer",
 		description:
 			"This is a simple web app that creates a random board for the Spymaster.",
-		demo: "",
+		demo: "https://swagenseller.github.io/CodeNameRandomizer/",
 		github: "https://github.com/swagenseller/CodeNameRandomizer",
 	},
 	{

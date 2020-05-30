@@ -10,10 +10,16 @@ const AppCard = (props) => {
 				<Card.Description>{props.item.description}</Card.Description>
 			</Card.Content>
 			<Card.Content extra>
-				<a href={props.item.github}>
-					<Icon name="github">GitHub</Icon>
-				</a>
-				{props.item.demo.length > 0 && <a>Demo</a>}
+				<div class="ui horizontal segments">
+					<a className="ui segment" href={props.item.github}>
+						<Icon name="github">GitHub</Icon>
+					</a>
+					{props.item.demo.length > 0 && (
+						<a className="ui segment" href={props.item.demo}>
+							Demo
+						</a>
+					)}
+				</div>
 			</Card.Content>
 		</Card>
 	);
