@@ -1,5 +1,6 @@
 import React from "react";
 import AppCard from "./AppCard";
+import { Grid } from "semantic-ui-react";
 
 const apps = [
 	{
@@ -33,9 +34,11 @@ class Projects extends React.Component {
 	appList() {
 		return apps.map((i) => {
 			return (
-				<div key={i.id}>
-					<AppCard item={i} />
-				</div>
+				<Grid.Column>
+					<div key={i.id}>
+						<AppCard item={i} />
+					</div>
+				</Grid.Column>
 			);
 		});
 	}
@@ -44,7 +47,9 @@ class Projects extends React.Component {
 		return (
 			<div>
 				<h1>Projects Page</h1>
-				{this.appList()}
+				<Grid columns={3}>
+					<Grid.Row>{this.appList()}</Grid.Row>
+				</Grid>
 			</div>
 		);
 	}
