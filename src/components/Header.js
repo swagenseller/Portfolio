@@ -2,6 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 class Header extends React.Component {
+	/*(props){
+		super(props)
+		this.state ={
+			toggle = ["", "", "active"]
+		}
+
+	}*/
 	render() {
 		return (
 			<div className="ui secondary pointing menu">

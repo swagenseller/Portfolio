@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import Header from "./Header";
 import About from "./About";
 import Contact from "./Contact";
+import "../css/theme.css";
 
 const App = () => {
 	return (

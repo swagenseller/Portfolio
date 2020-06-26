@@ -1,0 +1,23 @@
+body {
+	/*  background: #2b4699; */
+	background: #19295c;
+	color: #cfcfcf;
+}
+
+.ui.menu .item {
+	color: white;
+}
+
+.about {
+	margin-top: 10rem;
+	text-align: center;
+}
+
+.about h1 {
+	font-size: 2.5rem;
+}
+
+.info {
+	color: #878787;
+	font-size: 1.3rem;
+}
