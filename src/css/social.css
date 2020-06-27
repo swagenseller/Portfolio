@@ -1,8 +1,3 @@
-.fb.ui.button {
-	background-color: #4868ad;
-	color: white;
-}
-
 .gh.ui.button {
 	background-color: #4f4f4f;
 	color: white;
@@ -15,7 +10,8 @@
 	background-color: black;
 	color: white;
 }
-.lk.ui.button {
-	background-color: #0077b5;
-	color: white;
+
+.contact-con {
+	margin-top: 10rem;
+	text-align: center;
 }

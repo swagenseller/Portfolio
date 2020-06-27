@@ -1,27 +1,26 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class Header extends React.Component {
-	/*(props){
-		super(props)
-		this.state ={
-			toggle = ["", "", "active"]
-		}
-
-	}*/
+	constructor(props) {
+		super(props);
+		this.state = {
+			activeItem: "contactMe",
+		};
+	}
 	render() {
 		return (
-			<div className="ui secondary pointing menu">
-				<Link to="/about" className="item">
+			<div className="ui secondary pointing inverted menu">
+				<NavLink to="/about" className="item">
 					About
-				</Link>
-				<Link to="/contactMe" className="item">
+				</NavLink>
+				<NavLink to="/contactMe" className="item">
 					Contact
-				</Link>
+				</NavLink>
 				<div className="right menu">
-					<Link to="/" className="item active">
+					<NavLink exact to="/" className="item">
 						Projects
-					</Link>
+					</NavLink>
 				</div>
 			</div>
 		);

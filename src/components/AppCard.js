@@ -10,7 +10,7 @@ const AppCard = (props) => {
 				<Card.Description>{props.item.description}</Card.Description>
 			</Card.Content>
 			<Card.Content extra>
-				<div class="ui horizontal segments">
+				<div className="ui horizontal segments">
 					<a className="ui segment" href={props.item.github}>
 						<Icon name="github">GitHub</Icon>
 					</a>
