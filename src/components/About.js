@@ -1,8 +1,13 @@
 import React from "react";
 
+const testImage = require("../images/ColorGame.PNG");
 const About = () => {
 	return (
 		<div className="about">
+			<div className="ui medium circular image">
+				<img src={testImage} />
+			</div>
+
 			<h1>Hi, my name is Jeff Wagenseller</h1>
 			<div className="info">
 				<p>
