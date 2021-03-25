@@ -15,10 +15,10 @@ const apps = [
 	{
 		id: 1,
 		image: "",
-		name: "Pet Food Table",
-		description: "An excel like web app for fictional Pet Food inventory.",
+		name: "Fictional Restuarant",
+		description: "Website for a fictional resturant of my favorite food",
 		demo: "",
-		github: "https://github.com/swagenseller/ExcellyWebApp",
+		github: "",
 	},
 	{
 		id: 2,
@@ -27,6 +27,22 @@ const apps = [
 		description: "RGB Color guessing game",
 		demo: "",
 		github: "https://github.com/swagenseller/ColorGame",
+	},
+	{
+		id: 1,
+		image: "",
+		name: "Pet Food Table",
+		description: "An excel like web app for fictional Pet Food inventory.",
+		demo: "",
+		github: "https://github.com/swagenseller/ExcellyWebApp",
+	},
+	{
+		id: 3,
+		image: "",
+		name: "Pennsylvania Map",
+		description: "Population density map of Pennsylvania",
+		demo: "https://swagenseller.github.io/PennPopulation/",
+		github: "https://github.com/swagenseller/PennPopulation",
 	},
 ];
 
