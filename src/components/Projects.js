@@ -22,7 +22,7 @@ const apps = [
 	},
 	{
 		id: 2,
-		image: "",
+		image: require("../images/ColorGame.PNG"),
 		name: "Color Game",
 		description: "RGB Color guessing game",
 		demo: "",
