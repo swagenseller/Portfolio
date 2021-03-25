@@ -9,7 +9,7 @@ body {
 }
 
 .about {
-	margin-top: 10rem;
+	/*margin-top: 10rem; */
 	text-align: center;
 }
 
@@ -21,6 +21,7 @@ body {
 	color: #878787;
 	font-size: 1.3rem;
 }
-.menu-back {
-	background-color: #264399;
+.ui.secondary.inverted.menu {
+	background-color: #121c40;
+	border-color: white;
 }
