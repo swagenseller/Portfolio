@@ -29,7 +29,7 @@ const apps = [
 		github: "https://github.com/swagenseller/ColorGame",
 	},
 	{
-		id: 1,
+		id: 3,
 		image: "",
 		name: "Pet Food Table",
 		description: "An excel like web app for fictional Pet Food inventory.",
@@ -37,7 +37,7 @@ const apps = [
 		github: "https://github.com/swagenseller/ExcellyWebApp",
 	},
 	{
-		id: 3,
+		id: 4,
 		image: "",
 		name: "Pennsylvania Map",
 		description: "Population density map of Pennsylvania",
