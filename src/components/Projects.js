@@ -47,7 +47,7 @@ const apps = [
 ];
 
 class Projects extends React.Component {
-	appList() {
+	appList(apps) {
 		return apps.map((i) => {
 			return (
 				<Grid.Column>
@@ -64,7 +64,8 @@ class Projects extends React.Component {
 			<div>
 				<h1>Project Page</h1>
 				<Grid columns={3}>
-					<Grid.Row>{this.appList()}</Grid.Row>
+					<Grid.Row>{this.appList(apps.slice(0, 3))}</Grid.Row>
+					<Grid.Row>{this.appList(apps.slice(3, 6))}</Grid.Row>
 				</Grid>
 			</div>
 		);
