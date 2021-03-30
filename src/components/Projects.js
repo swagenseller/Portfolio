@@ -50,10 +50,8 @@ class Projects extends React.Component {
 	appList(apps) {
 		return apps.map((i) => {
 			return (
-				<Grid.Column>
-					<div key={i.id}>
-						<AppCard item={i} />
-					</div>
+				<Grid.Column key={i.id}>
+					<AppCard item={i} />
 				</Grid.Column>
 			);
 		});
@@ -63,7 +61,7 @@ class Projects extends React.Component {
 		return (
 			<div>
 				<h1>Project Page</h1>
-				<Grid columns={3}>
+				<Grid stackable container columns={3} className="grid-con">
 					<Grid.Row>{this.appList(apps.slice(0, 3))}</Grid.Row>
 					<Grid.Row>{this.appList(apps.slice(3, 6))}</Grid.Row>
 				</Grid>
