@@ -3,9 +3,9 @@ import { Card, Icon, Image } from "semantic-ui-react";
 
 const AppCard = (props) => {
 	return (
-		<Card>
+		<Card fluid>
 			<Image src={props.item.image} wrapped ui={false} />
-			<Card.Content>
+			<Card.Content textAlign="center">
 				<Card.Header>{props.item.name}</Card.Header>
 				<Card.Description>{props.item.description}</Card.Description>
 			</Card.Content>
