@@ -5,6 +5,39 @@ import { Grid } from "semantic-ui-react";
 const apps = [
 	{
 		id: 0,
+		image: "",
+		name: "Fictional Restuarant",
+		description: "Website for a fictional resturant of my favorite food",
+		demo: "",
+		github: "",
+	},
+	{
+		id: 1,
+		image: require("../images/ColorGame.PNG"),
+		name: "Fossil Finders",
+		description: "2-player strategy game",
+		demo: "http://swagenseller.github.io/Fossilfinders",
+		github: "https://github.com/swagenseller/Fossilfinders",
+	},
+	{
+		id: 2,
+		image: "",
+		name: "Pet Food Table",
+		description: "An excel like web app for fictional Pet Food inventory.",
+		demo: "",
+		github: "https://github.com/swagenseller/ExcellyWebApp",
+	},
+	{
+		id: 3,
+		image: "",
+		name: "Pennsylvania Map",
+		description: "Population density map of Pennsylvania",
+		demo: "https://swagenseller.github.io/PennPopulation/",
+		github: "https://github.com/swagenseller/PennPopulation",
+	},
+
+	{
+		id: 4,
 		image: require("../images/codenames1.PNG"),
 		name: "SpyMaster Randomizer",
 		description:
@@ -13,36 +46,12 @@ const apps = [
 		github: "https://github.com/swagenseller/CodeNameRandomizer",
 	},
 	{
-		id: 1,
-		image: "",
-		name: "Fictional Restuarant",
-		description: "Website for a fictional resturant of my favorite food",
-		demo: "",
-		github: "",
-	},
-	{
-		id: 2,
+		id: 5,
 		image: require("../images/ColorGame.PNG"),
 		name: "Color Game",
 		description: "RGB Color guessing game",
 		demo: "",
 		github: "https://github.com/swagenseller/ColorGame",
-	},
-	{
-		id: 3,
-		image: "",
-		name: "Pet Food Table",
-		description: "An excel like web app for fictional Pet Food inventory.",
-		demo: "",
-		github: "https://github.com/swagenseller/ExcellyWebApp",
-	},
-	{
-		id: 4,
-		image: "",
-		name: "Pennsylvania Map",
-		description: "Population density map of Pennsylvania",
-		demo: "https://swagenseller.github.io/PennPopulation/",
-		github: "https://github.com/swagenseller/PennPopulation",
 	},
 ];
 
