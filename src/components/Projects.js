@@ -13,7 +13,7 @@ const apps = [
 	},
 	{
 		id: 1,
-		image: require("../images/ColorGame.PNG"),
+		image: "",
 		name: "Fossil Finders",
 		description: "2-player strategy board game",
 		demo: "http://swagenseller.github.io/Fossilfinders",
@@ -29,7 +29,7 @@ const apps = [
 	},
 	{
 		id: 3,
-		image: "",
+		image: require("../images/PennPopImage.PNG"),
 		name: "Pennsylvania Map",
 		description: "Population density map of Pennsylvania",
 		demo: "https://swagenseller.github.io/PennPopulation/",
