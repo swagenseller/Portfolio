@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.610ae6f0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.56550e0e.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.56550e0e.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f4b12d93.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f4b12d93.js.map",
+    "static/js/2.e74a779e.chunk.js": "/Portfolio/static/js/2.e74a779e.chunk.js",
+    "static/js/2.e74a779e.chunk.js.map": "/Portfolio/static/js/2.e74a779e.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.b89b90fca919a883befa7c772a5910b2.js": "/Portfolio/precache-manifest.b89b90fca919a883befa7c772a5910b2.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.610ae6f0.chunk.css.map": "/Portfolio/static/css/main.610ae6f0.chunk.css.map",
+    "static/js/2.e74a779e.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e74a779e.chunk.js.LICENSE.txt",
+    "static/media/ColorGame.PNG": "/Portfolio/static/media/ColorGame.01d6bb58.PNG",
+    "static/media/codenames1.PNG": "/Portfolio/static/media/codenames1.c3d04485.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4b12d93.js",
+    "static/js/2.e74a779e.chunk.js",
+    "static/css/main.610ae6f0.chunk.css",
+    "static/js/main.56550e0e.chunk.js"
+  ]
+}
