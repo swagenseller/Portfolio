@@ -15,7 +15,7 @@ const apps = [
 		id: 1,
 		image: require("../images/ColorGame.PNG"),
 		name: "Fossil Finders",
-		description: "2-player strategy game",
+		description: "2-player strategy board game",
 		demo: "http://swagenseller.github.io/Fossilfinders",
 		github: "https://github.com/swagenseller/Fossilfinders",
 	},
