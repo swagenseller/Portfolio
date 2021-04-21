@@ -1,11 +1,11 @@
 import React from "react";
 
-const testImage = require("../images/ColorGame.PNG");
+const profileImage = require("../images/profileSmlr.jpg");
 const About = () => {
 	return (
 		<div className="about">
-			<div className="ui medium circular image">
-				<img src={testImage} />
+			<div className="ui medium circular image" height="500px">
+				<img src={profileImage} alt="J" />
 			</div>
 
 			<h1>Hi, my name is Jeff Wagenseller</h1>
