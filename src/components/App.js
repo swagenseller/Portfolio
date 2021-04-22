@@ -13,6 +13,7 @@ const App = () => {
 				<Header />
 				<Route path="/" exact component={Projects} />
 				<Route path="/about" exact component={About} />
+				<Route path="/Portfolio" exact component={About} />
 				<Route path="/contactMe" exact component={Contact} />
 			</div>
 		</BrowserRouter>

@@ -2,6 +2,7 @@ body {
 	/*  background: #2b4699; */
 	background: #19295c;
 	color: #cfcfcf;
+	overflow: overlay;
 }
 
 .ui.menu .item {
