@@ -5,15 +5,15 @@ import { Grid } from "semantic-ui-react";
 const apps = [
 	{
 		id: 0,
-		image: "",
+		image: require("../images/restaurant.JPG"),
 		name: "Fictional Restuarant",
-		description: "Website for a fictional resturant of my favorite food",
-		demo: "",
+		description: "Website for a fictional restaurant of my favorite food",
+		demo: "https://template-restuarant.herokuapp.com/",
 		github: "",
 	},
 	{
 		id: 1,
-		image: "",
+		image: require("../images/fossilGameSm.JPG"),
 		name: "Fossil Finders",
 		description: "2-player strategy board game",
 		demo: "http://swagenseller.github.io/Fossilfinders",
@@ -21,8 +21,8 @@ const apps = [
 	},
 	{
 		id: 2,
-		image: "",
-		name: "Pet Food Table",
+		image: require("../images/excelLikeApp.JPG"),
+		name: "Excel Like App",
 		description: "An excel like web app for fictional Pet Food inventory.",
 		demo: "",
 		github: "https://github.com/swagenseller/ExcellyWebApp",
